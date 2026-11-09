@@ -1,30 +1,24 @@
-# Changmin Lee — Academic Homepage
+# Changmin Lee — Minimal Light homepage
 
-Single-page academic website for Changmin Lee, M.S. student at KAIST GSCT / Visual Media Lab.
+This site uses the actual [Minimal Light theme by Yaoyao Liu](https://github.com/yaoyao-liu/minimal-light/tree/dd114c3fef2d97adc1c6b6d46901e0d96ab83a7c), based on Steve Smith's Minimal. It replaces the earlier hand-written approximation with the upstream Jekyll layout, styles, fonts, icon links, publication rows, and responsive rules.
 
-Live website: https://iamchangminlee.github.io/
+## Edit personal content
 
-## Design and origin
+- `_config.yml`: name, position, affiliation, email, portrait, profile destinations. `auto_dark_mode: false` selects the original light theme; `font: Serif` selects the original Crimson Pro and Ubuntu Mono fonts. The demo analytics ID is omitted.
+- `index.md`: biography, DGIST education, and research interests.
+- `_data/publications.yml`: publications in display order. The newer avatar-stylization manuscript is **Under Review**, not an accepted conference publication, and comes first. It has only its title, authors, teaser, and status. StyleID follows with its existing links.
+- `assets/css/palette.css`: color overrides only. Do not add layout, typography, spacing, sizing, radius, shadow, or motion overrides here.
 
-Adapted from [Minimal Light by Yaoyao Liu](https://github.com/yaoyao-liu/minimal-light/tree/dd114c3fef2d97adc1c6b6d46901e0d96ab83a7c), which builds on the Minimal theme. The original Minimal was created by [Steve Smith (orderedlist)](https://github.com/orderedlist/minimal). Visible credits are retained in the footer, with detailed sources and licenses in `THIRD_PARTY_NOTICES.md`.
+The upstream `_sass` and original CSS files are unchanged. `_layouts/homepage.html` adds the palette file, personal favicon metadata, accessible link labels, and fuller author credits. `_includes/publications.md` adds image descriptions, safe external-link attributes, and avoids a blank link for unpublished manuscripts. These changes do not alter component geometry or appearance.
 
-This version is plain HTML and CSS: a white background, charcoal body text, navy links, a profile sidebar on desktop, and a single scrolling column on phones. No JavaScript, analytics, third-party font requests, package installation, or Jekyll build is required. `DESIGN.md` describes the layout and shared tokens.
+CV creation and its link remain deferred. No invented news, service history, or sample publications are included.
 
-## Editing
+## Images
 
-- `index.html`: biography, links, publication, and footer credits.
-- `styles.css`: colors, typography, spacing, and responsive layout. The palette is defined at the top under `:root`.
-- `assets/profile-360.webp` and `assets/profile-720.webp`: web-sized versions of the supplied square portrait; image metadata removed, facial appearance unchanged.
-- `assets/styleid-teaser.webp`: representative figure from the owner's StyleID publication.
-- `assets/emms-teaser.webp`: white-background teaser supplied for the owner's under-review paper, resized without cropping. Only the supplied title and authors are shown, with no unconfirmed publication year or unavailable resource links.
-- `favicon.svg`: CL monogram.
+The supplied portrait is unchanged apart from web delivery encoding. Publication thumbnails in `assets/img` fit the original responsive thumbnail frames: the complete figures are centered on square white canvases with enough padding for the theme's original cover rule at desktop and mobile widths. The figure originals are not modified.
 
-To add a publication, duplicate the existing `<article class="publication">` within the Publications section and update the title, author list, venue, image, and resource links. Give its heading a unique `id` and update the article's matching `aria-labelledby` value and the resource navigation's `aria-label`. Omit unavailable links instead of adding placeholders.
+## Publish
 
-The profile includes the owner's GitHub, LinkedIn, and Google Scholar destinations. The biography includes the B.S. in Convergence Engineering from DGIST, awarded in February 2025. CV creation and its link are deferred until the owner provides a completed CV.
+GitHub Pages builds the `main` branch root with Jekyll. Keep `index.md`, `_config.yml`, and the original theme folders. Do not add `.nojekyll`, a competing `index.html`, or the former custom `styles.css`.
 
-## Preview and publish
-
-Serve this directory using any local static web server, then open its local address. For GitHub Pages, publish the repository's `main` branch at the root directory. The empty `.nojekyll` file preserves plain static-file publishing. No build step is needed.
-
-Template dedications and third-party asset licenses apply only to their respective materials; they do not license the user's portrait, publication figures, or personal content for unrestricted reuse.
+The upstream theme version is pinned in `_config.yml`. `LICENSE` and `licenses/minimal-light-CC0.txt` contain the theme's CC0 text; those apply to the theme, not the owner's portrait, publication figures, or personal content. See `THIRD_PARTY_NOTICES.md` for provenance.

@@ -1,0 +1,41 @@
+# Personal content; layout and component styling come from Minimal Light.
+title: Changmin Lee
+position: M.S. Student
+affiliation: KAIST GSCT · Visual Media Lab
+affiliation_link: https://vml.kaist.ac.kr/
+email: changminlee@kaist.ac.kr
+lang: en-US
+
+description: Changmin Lee is an M.S. student at KAIST GSCT and Visual Media Lab, advised by Prof. Junyong Noh. Research interests include avatars.
+keywords: Changmin Lee, KAIST, avatars
+canonical: https://iamchangminlee.github.io/
+url: https://iamchangminlee.github.io
+baseurl: ""
+
+google_scholar: https://scholar.google.com/citations?user=iv1rG0EAAAAJ
+github_link: https://github.com/iamchangminlee
+linkedin: https://www.linkedin.com/in/changmin-lee-698470257/
+# CV is intentionally deferred. No placeholder link.
+
+avatar: ./assets/profile-360.webp
+favicon: ./favicon.svg
+favicon_dark: ./favicon.svg
+
+enable_footnote: true
+auto_dark_mode: false
+font: Serif
+# No Google Analytics ID: the demo's tracking is disabled.
+
+remote_theme: yaoyao-liu/minimal-light@dd114c3fef2d97adc1c6b6d46901e0d96ab83a7c
+plugins:
+  - jekyll-remote-theme
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - DESIGN.md
+  - THIRD_PARTY_NOTICES.md
+  - LICENSE
+  - licenses
+  - html_source_file
