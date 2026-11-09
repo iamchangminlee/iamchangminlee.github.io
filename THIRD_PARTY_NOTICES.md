@@ -22,7 +22,7 @@ The original theme loads Crimson Pro and Ubuntu Mono via Google Fonts, Academico
 
 ## CV template
 
-The public CV adapts Anubhav Singh's Resume Template. The original LaTeX header identifies MIT; the Overleaf template listing identifies CC BY 4.0. The adapted source retains the original attribution, and the PDF credits the author and links to the template and CC BY 4.0. Content, spacing, and wrapping have been adapted for Changmin Lee.
+The public CV adapts Anubhav Singh's Resume Template. The original LaTeX header identifies MIT; the Overleaf template listing identifies CC BY 4.0. Attribution is retained in the LaTeX source and these repository notices; the CV does not display a template-credit footer. Content, typography, spacing, and wrapping have been adapted for Changmin Lee.
 
 Source: https://www.overleaf.com/latex/templates/resume-template-by-anubhav/dhmkrwtksdgy
 
