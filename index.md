@@ -14,4 +14,13 @@ layout: homepage
   <li><strong>Avatars</strong></li>
 </ul>
 
+<h2 id="news">News</h2>
+
+<ul>
+  <li><strong>[Mar. 2026]</strong> Our paper <a href="https://kwanyun.github.io/StyleID_page/">StyleID</a> was accepted to SIGGRAPH 2026 (ACM Transactions on Graphics).</li>
+  <li><strong>[Apr. 2025]</strong> I joined the <a href="https://vml.kaist.ac.kr/">Visual Media Lab</a> at KAIST.</li>
+  <li><strong>[Mar. 2025]</strong> I began my M.S. studies at <a href="https://ct.kaist.ac.kr/">KAIST GSCT</a>.</li>
+  <li><strong>[Feb. 2025]</strong> I received my B.S. in Convergence Engineering from <a href="https://www.dgist.ac.kr/eng/">DGIST</a>.</li>
+</ul>
+
 {% include_relative _includes/publications.md %}

@@ -16,7 +16,7 @@ Original wrapper960px; fixed header232px with4em top padding; main section650px 
 Use upstream homepage layout and publications include, configured with personal content. Profile links remain circular icon links; omit CV and Twitter because unavailable. Publication rows keep original title, authors, periodical, badge, and small PDF/Code/Project Page buttons. Under-review paper has no resource links or year. Preserve original footnote styling, with Yaoyao Liu and Steve Smith credited. No separate StyleID figure credit, per author request.
 
 ## 6. Motion & Interaction
-Keep upstream hover transforms, publication/button transitions, and responsive behavior. Nonvisual additions may provide alt text, accessible link labels, and safe link attributes. Do not add custom navigation, animation, sections, or controls. Disable the upstream demo's analytics ID.
+Keep upstream hover transforms, publication/button transitions, and responsive behavior. Nonvisual additions may provide alt text, accessible link labels, and safe link attributes. News uses the original template's heading and dated bullet list between Research Interests and Publications, with personal milestones in reverse chronological order. Do not add custom navigation, animation, sections beyond the requested original News section, or controls. Disable the upstream demo's analytics ID.
 
 ## 7. Depth & Surface
 Keep the original rounded teaser frame and shadows, badge overlay, and small bordered resource buttons. No custom cards, full-width rules, or reinterpreted surfaces. Personalization is restricted to content and palette.
