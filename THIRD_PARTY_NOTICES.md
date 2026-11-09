@@ -8,7 +8,7 @@ Theme license: CC0 1.0 Universal; full text in LICENSE and licenses/minimal-ligh
 
 This site uses the upstream Jekyll layout, publication include, Sass/CSS, fonts, icon links, scripts, and responsive behavior. All upstream Sass and CSS files are retained without edits. Personalization is stored in _config.yml, index.md, _data/publications.yml, image assets, and a color-only palette stylesheet.
 
-Nonvisual template changes: loading the palette; correct personal favicon type; portrait and teaser descriptions; social link accessible labels; no empty paper hyperlink; noopener on external links; original-author credits. The demo Google Analytics ID is removed from configuration. The previous custom layout and stylesheet are not used.
+Nonvisual template changes: loading the palette; correct personal favicon type; portrait and teaser descriptions; social link accessible labels; no empty paper hyperlink; noopener on external links; original-author credits. The demo Google Analytics ID is removed from configuration. The previous custom layout and stylesheet are not used. A separate thumbnail stylesheet and script implement the owner-requested full-row figure preview; the publication include adds its trigger and preview panel. The upstream stylesheets are unchanged.
 
 ## Minimal lineage
 

@@ -9,13 +9,15 @@ This site uses the actual [Minimal Light theme by Yaoyao Liu](https://github.com
 - `_data/publications.yml`: publications in display order. The newer avatar-stylization manuscript is **Under Review**, not an accepted conference publication, and comes first. It has only its title, authors, teaser, and status. StyleID follows with its existing links.
 - `assets/css/palette.css`: color overrides only. Do not add layout, typography, spacing, sizing, radius, shadow, or motion overrides here.
 
-The upstream `_sass` and original CSS files are unchanged. `_layouts/homepage.html` adds the palette file, personal favicon metadata, accessible link labels, and fuller author credits. `_includes/publications.md` adds image descriptions, safe external-link attributes, and avoids a blank link for unpublished manuscripts. These changes do not alter component geometry or appearance.
+The upstream `_sass` and original CSS files are unchanged. `_layouts/homepage.html` adds the palette file, personal favicon metadata, accessible link labels, and fuller author credits. `_includes/publications.md` adds image descriptions, safe external-link attributes, and avoids a blank link for unpublished manuscripts. The publication include also adds the requested figure trigger and expanded preview panel. The resting layout geometry and upstream styles remain unchanged.
 
 CV creation and its link remain deferred. No invented news, service history, or sample publications are included.
 
 ## Images
 
-The supplied portrait is unchanged apart from web delivery encoding. Publication thumbnails in `assets/img` fit the original responsive thumbnail frames: the complete figures are centered on square white canvases with enough padding for the theme's original cover rule at desktop and mobile widths. The figure originals are not modified.
+The supplied portrait is unchanged apart from web delivery encoding. Publication figures keep the original thumbnail frame at rest. Hovering over a thumbnail expands the figure across the same publication row, temporarily replacing its title and authors; leaving restores the row. On touch or keyboard, activate the thumbnail and activate the enlarged figure again or press Escape to return. There is no separate close button. The row grows with the image so neighboring publications are not covered.
+
+Full-resolution WebP figures retain the original pixel dimensions and load only after opening a preview. The optimized thumbnail remains visible while the larger image loads. `assets/css/thumbnails.css` and `assets/js/thumbnail-preview.js` implement this requested interaction; the upstream CSS remains unchanged.
 
 ## Publish
 

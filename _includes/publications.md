@@ -6,10 +6,12 @@
 {% for link in site.data.publications.main %}
 
 <li>
-<div class="pub-row">
+<div class="pub-row"{% if link.image_ratio %} style="--preview-ratio: {{ link.image_ratio }}"{% endif %}>
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" alt="{{ link.title }}" style="width=100;height=40%">
+    <button class="teaser teaser-trigger" type="button" aria-expanded="false" aria-controls="figure-preview-{{ forloop.index }}" aria-label="Enlarge figure for {{ link.title }}" title="Enlarge figure">
+      <img src="{{ link.image }}" alt="{{ link.title }}">
+    </button>
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
@@ -41,6 +43,9 @@
       {% endif %}
     </div>
   </div>
+  <button class="teaser-preview" id="figure-preview-{{ forloop.index }}" type="button" aria-label="Restore publication details for {{ link.title }}" hidden>
+    <img src="{{ link.image }}" data-full-src="{{ link.image_full | default: link.image }}" alt="{{ link.title }} — enlarged figure">
+  </button>
 </div>
 </li>
 <br>

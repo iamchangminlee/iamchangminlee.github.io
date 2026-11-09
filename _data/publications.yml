@@ -2,7 +2,9 @@ main:
   - title: Editability Map-Guided Morphing for 4D Gaussian Head Avatar Stylization
     authors: <strong>Changmin Lee</strong>, Hyeonho Na, Kwan Yun, Junyong Noh
     conference_short: Under Review
-    image: ./assets/img/emms-teaser.webp
+    image: ./assets/emms-teaser.webp
+    image_full: ./assets/img/emms-full.webp
+    image_ratio: 4607 / 1316
 
   - title: "StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition"
     authors: <a href="https://kwanyun.github.io/">Kwan Yun</a>, <strong>Changmin Lee</strong>, Ayeong Jeong, Youngseo Kim, Seungmi Lee, Junyong Noh
@@ -11,4 +13,6 @@ main:
     pdf: https://arxiv.org/abs/2604.21689
     code: https://github.com/kwanyun/StyleID
     page: https://kwanyun.github.io/StyleID_page/
-    image: ./assets/img/styleid-teaser.webp
+    image: ./assets/styleid-teaser.webp
+    image_full: ./assets/img/styleid-full.webp
+    image_ratio: 3454 / 1810
