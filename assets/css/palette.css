@@ -4,6 +4,7 @@
   --personal-muted: #626a73;
   --personal-navy: #193b61;
   --personal-hover: #102946;
+  --personal-author-weight: 600;
   --global-bg-color: var(--personal-paper);
   --global-text-color: var(--personal-ink);
   --global-text-color-light: var(--personal-muted);
@@ -12,6 +13,7 @@
 }
 body { background-color: var(--personal-paper); color: var(--personal-ink); }
 autocolor, strong { color: var(--personal-ink); }
+.publications .author strong { font-weight: var(--personal-author-weight); }
 h1, h2, h3, h4, h5, h6, a { color: var(--personal-navy); }
 a:hover { color: var(--personal-hover); }
 a small, a:hover small { color: var(--personal-muted); }
