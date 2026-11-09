@@ -16,7 +16,7 @@ This version is plain HTML and CSS: a white background, charcoal body text, navy
 - `styles.css`: colors, typography, spacing, and responsive layout. The palette is defined at the top under `:root`.
 - `assets/profile-360.webp` and `assets/profile-720.webp`: web-sized versions of the supplied square portrait; image metadata removed, facial appearance unchanged.
 - `assets/styleid-teaser.webp`: representative figure from the owner's StyleID publication.
-- `assets/emms-teaser.webp`: white-background teaser supplied for the owner's AAAI paper, resized without cropping. Only the supplied title and authors are shown, with no unconfirmed publication year or unavailable resource links.
+- `assets/emms-teaser.webp`: white-background teaser supplied for the owner's under-review paper, resized without cropping. Only the supplied title and authors are shown, with no unconfirmed publication year or unavailable resource links.
 - `favicon.svg`: CL monogram.
 
 To add a publication, duplicate the existing `<article class="publication">` within the Publications section and update the title, author list, venue, image, and resource links. Give its heading a unique `id` and update the article's matching `aria-labelledby` value and the resource navigation's `aria-label`. Omit unavailable links instead of adding placeholders.

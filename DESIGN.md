@@ -1,7 +1,7 @@
 # Changmin Lee — Personal Website
 
 ## 1. Atmosphere & Identity
-A compact, single-page academic homepage adapted from Yaoyao Liu's Minimal Light (upstream commit dd114c3fef2d97adc1c6b6d46901e0d96ab83a7c). Preserve its centered profile column and flowing research content. The user's white background, charcoal text, and navy accents replace the demo palette. Use the supplied square portrait, biography, DGIST education, and the StyleID and AAAI publications. Every section is on this page. The AAAI entry shows only its supplied title, authors, white-background teaser, and conference badge; no unconfirmed year, description, or resource buttons. CV creation is deferred at the user's request.
+A compact, single-page academic homepage adapted from Yaoyao Liu's Minimal Light (upstream commit dd114c3fef2d97adc1c6b6d46901e0d96ab83a7c). Preserve its centered profile column and flowing research content. The user's white background, charcoal text, and navy accents replace the demo palette. Use the supplied square portrait, biography, DGIST education, and the StyleID and under-review publications. Every section is on this page. Preserve the template layout, typography, and spacing; future customization should focus on personal content and colors. List the newer under-review work before StyleID. The under-review entry shows only its supplied title, authors, white-background teaser, and Under Review status badge; no unconfirmed year, description, or resource buttons. CV creation is deferred at the user's request.
 
 ## 2. Color
 | Token | Value | Usage |
