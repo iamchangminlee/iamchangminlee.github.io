@@ -15,7 +15,7 @@ baseurl: ""
 google_scholar: https://scholar.google.com/citations?user=iv1rG0EAAAAJ
 github_link: https://github.com/iamchangminlee
 linkedin: https://www.linkedin.com/in/changmin-lee-698470257/
-# CV is intentionally deferred. No placeholder link.
+cv_link: ./assets/files/Changmin_Lee_CV.pdf
 
 avatar: ./assets/profile-360.webp
 favicon: ./favicon.svg

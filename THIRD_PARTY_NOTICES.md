@@ -20,6 +20,12 @@ Sources: https://github.com/pages-themes/minimal and https://github.com/orderedl
 
 The original theme loads Crimson Pro and Ubuntu Mono via Google Fonts, Academicons 1.8.6 and Font Awesome 6.4.2 via cdnjs. Those fonts and icons remain governed by their respective projects' licenses. CDN stylesheet integrity attributes are retained from the upstream layout.
 
+## CV template
+
+The public CV adapts Anubhav Singh's Resume Template. The original LaTeX header identifies MIT; the Overleaf template listing identifies CC BY 4.0. The adapted source retains the original attribution, and the PDF credits the author and links to the template and CC BY 4.0. Content, spacing, and wrapping have been adapted for Changmin Lee.
+
+Source: https://www.overleaf.com/latex/templates/resume-template-by-anubhav/dhmkrwtksdgy
+
 ## Owner-provided materials
 
 Changmin Lee supplied the portrait, personal information, publication metadata, and research figures and authorized their use on this homepage. Template licensing does not grant unrestricted reuse of the portrait, figures, or personal content. No separate StyleID figure credit appears at the owner's request.

@@ -11,7 +11,7 @@ This site uses the actual [Minimal Light theme by Yaoyao Liu](https://github.com
 
 The upstream `_sass` and original CSS files are unchanged. `_layouts/homepage.html` adds the palette file, personal favicon metadata, accessible link labels, and fuller author credits. `_includes/publications.md` adds image descriptions, safe external-link attributes, and avoids a blank link for unpublished manuscripts. The publication include also adds the requested figure trigger and expanded preview panel. The resting layout geometry and upstream styles remain unchanged.
 
-CV creation and its link remain deferred. No invented news, service history, or sample publications are included.
+The original CV icon links to `assets/files/Changmin_Lee_CV.pdf`. Replace that file when exporting an updated CV from its LaTeX source; keep the filename stable so saved links continue working. The PDF contains confirmed personal history and preserves the CV template attribution. No invented news, service history, or sample publications are included.
 
 ## Images
 
