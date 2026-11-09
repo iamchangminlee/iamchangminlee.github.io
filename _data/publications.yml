@@ -7,7 +7,7 @@ main:
     image_ratio: 4607 / 1316
 
   - title: "StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition"
-    authors: <a href="https://kwanyun.github.io/">Kwan Yun</a>, <strong>Changmin Lee</strong>, Ayeong Jeong, Youngseo Kim, Seungmi Lee, Junyong Noh
+    authors: Kwan Yun, <strong>Changmin Lee</strong>, Ayeong Jeong, Youngseo Kim, Seungmi Lee, Junyong Noh
     conference_short: SIGGRAPH 2026
     conference: ACM Transactions on Graphics, 2026.
     pdf: https://arxiv.org/abs/2604.21689
