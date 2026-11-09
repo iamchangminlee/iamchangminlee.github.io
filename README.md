@@ -15,13 +15,16 @@ This version is plain HTML and CSS: a white background, charcoal body text, navy
 - `index.html`: biography, links, publication, and footer credits.
 - `styles.css`: colors, typography, spacing, and responsive layout. The palette is defined at the top under `:root`.
 - `assets/profile-360.webp` and `assets/profile-720.webp`: web-sized versions of the supplied square portrait; image metadata removed, facial appearance unchanged.
-- `assets/styleid-teaser.webp`: publication figure. Keep its source and license credit when reusing it.
+- `assets/styleid-teaser.webp`: representative figure from the owner's StyleID publication.
+- `assets/emms-teaser.webp`: white-background teaser supplied for the owner's AAAI paper, resized without cropping. Only the supplied title and authors are shown, with no unconfirmed publication year or unavailable resource links.
 - `favicon.svg`: CL monogram.
 
 To add a publication, duplicate the existing `<article class="publication">` within the Publications section and update the title, author list, venue, image, and resource links. Give its heading a unique `id` and update the article's matching `aria-labelledby` value and the resource navigation's `aria-label`. Omit unavailable links instead of adding placeholders.
+
+The profile includes the owner's GitHub, LinkedIn, and Google Scholar destinations. The biography includes the B.S. in Convergence Engineering from DGIST, awarded in February 2025. CV creation and its link are deferred until the owner provides a completed CV.
 
 ## Preview and publish
 
 Serve this directory using any local static web server, then open its local address. For GitHub Pages, publish the repository's `main` branch at the root directory. The empty `.nojekyll` file preserves plain static-file publishing. No build step is needed.
 
-Template dedications and third-party asset licenses apply only to their respective materials; they do not license the user's portrait or personal content for unrestricted reuse.
+Template dedications and third-party asset licenses apply only to their respective materials; they do not license the user's portrait, publication figures, or personal content for unrestricted reuse.

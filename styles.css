@@ -51,11 +51,13 @@ h3 a:hover { text-decoration: underline; }
 .role { margin-top: var(--s2); color: var(--muted); font-size: var(--small); }
 .affiliation { margin-top: var(--s3); font-size: var(--small); line-height: 1.8; }
 .email { display: inline-block; margin-top: var(--s4); font-size: var(--small); overflow-wrap: anywhere; }
-.profile-links { display: flex; justify-content: center; margin-top: var(--s4); }
+.profile-links { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--s2); margin-top: var(--s4); }
+.about p + p { margin-top: var(--s4); }
 main { min-width: 0; }
 main:focus { outline: none; }
 main > section + section { margin-top: var(--s10); }
 .publication { display: grid; grid-template-columns: var(--teaser-width) minmax(0, 1fr); gap: var(--s6); align-items: start; }
+.publication + .publication { margin-top: var(--s12); }
 .publication-image { display: block; padding-top: var(--s1); text-decoration: none; }
 .publication-image img { display: block; width: 100%; height: auto; margin-top: var(--s3); border-radius: var(--s1); }
 .venue-badge { display: inline-block; padding: var(--s1) var(--s2); background: var(--soft); color: var(--navy); border-radius: var(--s1); font: 700 var(--caption)/1.5 var(--sans); }

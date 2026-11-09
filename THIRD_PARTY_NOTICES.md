@@ -16,15 +16,6 @@ Minimal Light's README credits both https://github.com/pages-themes/minimal and 
 
 The `pages-themes/minimal` repository currently distributes its theme under CC0 1.0 Universal. The older `orderedlist/minimal` README identifies CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). These are distinct upstream repositories, and their licenses are not interchangeable. This adaptation uses the CC0 Minimal Light source referenced above; the original Minimal is acknowledged for design lineage. No original Minimal sample content, scripts, or bundled assets were copied into this site.
 
-## StyleID publication figure
-
-- Authors: Kwan Yun, Changmin Lee, Ayeong Jeong, Youngseo Kim, Seungmi Lee, and Junyong Noh.
-- Project: https://kwanyun.github.io/StyleID_page/
-- Source image: https://kwanyun.github.io/StyleID_page/static/images/teaser.png
-- Local asset: `assets/styleid-teaser.webp`.
-- License: CC BY-SA 4.0, as stated in the project website footer: https://creativecommons.org/licenses/by-sa/4.0/
-- Changes: resized from 3454 × 1810 to 960 × 503 and converted from PNG to WebP, without cropping. The adapted figure remains under CC BY-SA 4.0.
-
 ## GitHub logo
 
 - Source: GitHub official logo assets, https://brand.github.com/GitHub_Logos.zip
@@ -33,4 +24,4 @@ The `pages-themes/minimal` repository currently distributes its theme under CC0 
 
 ## Owner-provided materials
 
-Changmin Lee supplied the profile photograph and biographical information. The two portrait WebP files are resized delivery copies with metadata removed. The upstream template dedication and figure license do not apply to the portrait or other personal content. No general reuse license for those materials is granted here.
+Changmin Lee supplied the profile photograph and biographical information and authorized the use of figures from his own publications. The two portrait WebP files are resized delivery copies with metadata removed. The upstream template dedication does not apply to the portrait, publication figures, or personal content. No general reuse license for those materials is granted here.
