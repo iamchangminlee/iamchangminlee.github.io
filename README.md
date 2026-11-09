@@ -1,34 +1,27 @@
-# Changmin Lee — personal homepage
+# Changmin Lee — Academic Homepage
 
-Target address: https://iamchangminlee.github.io/
+Single-page academic website for Changmin Lee, M.S. student at KAIST GSCT / Visual Media Lab.
 
-A static site: `index.html`, `styles.css`, `favicon.svg`, `.nojekyll`, and `assets/`. No build, API keys, or package installation is required for hosting.
+Live website: https://iamchangminlee.github.io/
 
-## Publish on GitHub Pages
+## Design and origin
 
-1. Create the public repository `iamchangminlee/iamchangminlee.github.io`.
-2. Add the website files at the repository root on `main`.
-3. In Settings → Pages, select Deploy from a branch, main, and /(root), then save.
-4. Wait for deployment and check https://iamchangminlee.github.io/.
+Adapted from [Minimal Light by Yaoyao Liu](https://github.com/yaoyao-liu/minimal-light/tree/dd114c3fef2d97adc1c6b6d46901e0d96ab83a7c), which builds on the Minimal theme. The original Minimal was created by [Steve Smith (orderedlist)](https://github.com/orderedlist/minimal). Visible credits are retained in the footer, with detailed sources and licenses in `THIRD_PARTY_NOTICES.md`.
 
-Existing business-card QR codes point directly to this address.
+This version is plain HTML and CSS: a white background, charcoal body text, navy links, a profile sidebar on desktop, and a single scrolling column on phones. No JavaScript, analytics, third-party font requests, package installation, or Jekyll build is required. `DESIGN.md` describes the layout and shared tokens.
 
-## Edit the content
+## Editing
 
-- Biography, email, and publications: `index.html`.
-- Profile photo: replace the `.profile-visual` monogram with an image with descriptive alt text and explicit width/height.
-- Appearance: documented tokens in `styles.css` and `DESIGN.md`.
-- New publication: duplicate `article.publication` and update its content, image and links.
+- `index.html`: biography, links, publication, and footer credits.
+- `styles.css`: colors, typography, spacing, and responsive layout. The palette is defined at the top under `:root`.
+- `assets/profile-360.webp` and `assets/profile-720.webp`: web-sized versions of the supplied square portrait; image metadata removed, facial appearance unchanged.
+- `assets/styleid-teaser.webp`: publication figure. Keep its source and license credit when reusing it.
+- `favicon.svg`: CL monogram.
 
-## Sources
+To add a publication, duplicate the existing `<article class="publication">` within the Publications section and update the title, author list, venue, image, and resource links. Give its heading a unique `id` and update the article's matching `aria-labelledby` value and the resource navigation's `aria-label`. Omit unavailable links instead of adding placeholders.
 
-The user supplied the name, KAIST GSCT / Visual Media Lab affiliation, M.S. status, advisor Junyong Noh, avatar research interest, and public email.
+## Preview and publish
 
-StyleID author list, title, and venue were checked on 2026-11-09:
+Serve this directory using any local static web server, then open its local address. For GitHub Pages, publish the repository's `main` branch at the root directory. The empty `.nojekyll` file preserves plain static-file publishing. No build step is needed.
 
-- https://kwanyun.github.io/StyleID_page/
-- https://arxiv.org/abs/2604.21689
-- Teaser: https://kwanyun.github.io/StyleID_page/static/images/teaser.png (resized without cropping).
-- GitHub logo: https://brand.github.com/GitHub_Logos.zip.
-
-Structure inspired by https://kwanyun.github.io/. HTML and CSS are original to this site; other people's biographies, portraits, news, and publications were not copied.
+Template dedications and third-party asset licenses apply only to their respective materials; they do not license the user's portrait or personal content for unrestricted reuse.
