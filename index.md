@@ -4,7 +4,7 @@ layout: homepage
 
 <h2 id="about-me">About Me</h2>
 
-<p>I'm an M.S. student at the <a href="https://ct.kaist.ac.kr/">Graduate School of Culture Technology, KAIST</a>, and a member of the <a href="https://vml.kaist.ac.kr/">Visual Media Lab</a>, advised by <a href="https://vml.kaist.ac.kr/main/people/person/1">Prof. Junyong Noh</a>.</p>
+<p>I'm an M.S. student at the <a href="https://ct.kaist.ac.kr/">Graduate School of Culture Technology, KAIST</a>, and a member of the <a href="https://vml.kaist.ac.kr/">Visual Media Lab</a>, advised by <a href="https://vml.kaist.ac.kr/main/people/person/1">Prof. Junyong Noh</a>. I will begin my Ph.D. studies in March 2027.</p>
 
 <p>My research aims to bridge the gap between 2D visual knowledge and 3D graphics for digital avatars. I am interested in bidirectional knowledge transfer between 2D generative models and 3D representations, allowing each to inform the other for avatar creation and editing. My recent work explores head avatar stylization and facial identity across visual styles.</p>
 
