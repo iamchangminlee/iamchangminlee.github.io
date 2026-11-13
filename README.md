@@ -6,7 +6,7 @@ This site uses the actual [Minimal Light theme by Yaoyao Liu](https://github.com
 
 - `_config.yml`: name, position, affiliation, email, portrait, profile destinations. `auto_dark_mode: false` selects the original light theme; `font: Serif` selects the original Crimson Pro and Ubuntu Mono fonts. The demo analytics ID is omitted.
 - `index.md`: biography, DGIST education, research interests, and News in reverse chronological order. News uses the original template's dated bullet-list format.
-- `_data/publications.yml`: publications in display order. The newer avatar-stylization manuscript is **Under Review**, not an accepted conference publication, and comes first. It has only its title, authors, teaser, and status. StyleID follows with its existing links.
+- `_data/publications.yml`: publications approved for public display, in display order. StyleID retains its existing links. Keep unpublished manuscript backups outside this public repository and synchronize the downloadable CV with the public publication list.
 - `assets/css/palette.css`: color overrides only. Do not add layout, typography, spacing, sizing, radius, shadow, or motion overrides here.
 
 The upstream `_sass` and original CSS files are unchanged. `_layouts/homepage.html` adds the palette file, personal favicon metadata, accessible link labels, and fuller author credits. `_includes/publications.md` adds image descriptions, safe external-link attributes, and avoids a blank link for unpublished manuscripts. The publication include also adds the requested figure trigger and expanded preview panel. The resting layout geometry and upstream styles remain unchanged.
