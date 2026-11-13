@@ -20,6 +20,7 @@ layout: homepage
 <h2 id="news">News</h2>
 
 <ul>
+  <li><strong>[Nov. 2026]</strong> I successfully defended my master's thesis.</li>
   <li><strong>[Mar. 2026]</strong> Our paper <a href="https://kwanyun.github.io/StyleID_page/">StyleID: A Perception-Aware Dataset and Metric for Stylization-Agnostic Facial Identity Recognition</a> was accepted to SIGGRAPH 2026 (ACM Transactions on Graphics).</li>
   <li><strong>[Apr. 2025]</strong> I joined the <a href="https://vml.kaist.ac.kr/">Visual Media Lab</a> at KAIST.</li>
   <li><strong>[Mar. 2025]</strong> I began my M.S. studies at <a href="https://ct.kaist.ac.kr/">KAIST GSCT</a>.</li>
